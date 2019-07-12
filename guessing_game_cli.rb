@@ -3,7 +3,7 @@ def run_guessing_game
   userInput = gets.chomp
   if userInput == "exit"
     puts "Goodbye!"
-  elsif userInput === randomNum.to_s
+  elsif userInput === randomNum.to_s  #to_s is important bc was comparing string to int before 
     puts "/You guessed the correct number!/"
   elsif userInput != randomNum
     puts "/Sorry! The computer guessed #{randomNum}./" 
