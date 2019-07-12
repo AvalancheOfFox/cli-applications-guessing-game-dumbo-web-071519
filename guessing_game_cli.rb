@@ -6,6 +6,6 @@ def run_guessing_game
   elsif userInput == randomNum
     puts "You guessed the correct number!"
   elsif userInput != randomNum
-    puts "Sorry! The computer guessed " ${}
+    puts "Sorry! The computer guessed #{randomNum}" 
   end
 end
